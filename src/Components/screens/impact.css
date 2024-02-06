@@ -1,0 +1,36 @@
+.impactbox {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centeredbox{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color:#fff; */
+  }
+  .impactimg{
+    /* width: 100%; */
+  height: 560px !important;
+  }
+  .impactHead{
+    font-size: clamp(40px, 9vw, 120px) ;
+    font-weight: bold;
+  }
+  
+  /* @media only screen and (max-width: 576px) { 
+    .centeredbox{
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+  } 
+} */
+
+  

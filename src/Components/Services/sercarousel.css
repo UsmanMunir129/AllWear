@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .slider {
+    margin:0 10px;
+    overflow:"hidden";
+    padding:2rem 0;
+  }
+  
+  .slider img {
+    width: 100%;
+    border: 0.09px solid rgb(152, 152, 152);
+  }
+  
+  /* .react-multi-carousel-list {
+  padding: 0rem 0 2rem 0;
+  } */
+ 
