@@ -19,7 +19,7 @@ const Footer = () => {
                   Blanditiis obcaecati minima inventore ipsa itaque ipsam
                   laudantium necessitatibus id amet. Doloribus dolorum molestias
                   vitae excepturi voluptates, suscipit aperiam accusantium at
-                  cupiditate.
+                  cupiditates.
                 </p>
                 <Row>
                   <Col>1 of 3</Col>
