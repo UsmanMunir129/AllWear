@@ -56,11 +56,12 @@ h1 {
   
   }
 
-h3 {}
+h3 {
+  font-size: clamp(18.8px, 1.4vw, 26px);
+}
  
 h4 {
   font-size: clamp(15.8px, 1.4vw, 23px);
-  
 }
 h5 {
   font-size: clamp(12.8px, 1.4vw, 20px);

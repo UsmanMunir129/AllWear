@@ -2,7 +2,7 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 footer.nb-footer {
     background: #222;
-    border-top: 4px solid #b78c33; }
+     }
     footer.nb-footer .about 
     {
     margin: 0 auto;
@@ -17,16 +17,18 @@ footer.nb-footer {
     margin-top: 10px; 
     
 }
-    footer.nb-footer .about .social-media 
+   .social-media 
     {
-    margin-top: 15px; 
     display: flex;
     justify-content: center;
+    align-items: center;
     
 }
-    footer.nb-footer .about .social-media ul li a 
+.social-media ul li a 
     {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 45px;
     height: 45px;
     line-height: 45px;
@@ -35,35 +37,56 @@ footer.nb-footer {
     color: #fff;
     border: 1px solid rgba(255, 255, 255, 0.3);
  }
-    footer.nb-footer .about .social-media ul li a:hover 
+    .social-media ul li a:hover 
     {
     background: #fff;
     color: #000;
-    border-color: #000; 
 }
-    footer.nb-footer .footer-info-single {
-    margin-top: 30px; }
-    footer.nb-footer .footer-info-single .title {
+    footer.nb-footer .footer-info-single 
+    {
+    margin-top: 30px; 
+}
+    footer.nb-footer .footer-info-single .title
+     {
     color: #aaa;
     text-transform: uppercase;
     font-size: 16px;
-    border-left: 4px solid #b78c33;
-    padding-left: 5px; }
-    footer.nb-footer .footer-info-single ul li a {
+    border-left: 4px solid #fff;
+    padding-left: 5px; 
+}
+    footer.nb-footer .footer-info-single ul li a
+     {
     display: block;
     color: #aaa;
-    padding: 2px 0; }
-    footer.nb-footer .footer-info-single ul li a:hover {
-    color: #b78c33; }
-    footer.nb-footer .footer-info-single p {
+    padding: 2px 0;
+    width: fit-content;
+
+ }
+    footer.nb-footer .footer-info-single ul li a:hover 
+    {
+    color: #fff; 
+    text-decoration: underline;
+}
+    footer.nb-footer .footer-info-single p 
+    {
     font-size: 13px;
     line-height: 20px;
-    color: #aaa; }
+    color: #aaa;
+ }
     footer.nb-footer .copyright {
     margin-top: 15px;
     background: #111;
     padding: 7px 0;
-    color: #999; }
-    footer.nb-footer .copyright p {
+    color: #999;
+ }
+    footer.nb-footer .copyright p 
+    {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+ }
+.footerlasttext{
+    color: #fff;
+}
+.footerlasttext:hover{
+    text-decoration: underline;
+}
